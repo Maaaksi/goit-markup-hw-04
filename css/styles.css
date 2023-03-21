@@ -527,7 +527,7 @@ h6 {
 
 }
 
-.icon-team {
+.href-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -540,14 +540,20 @@ h6 {
     margin-right: 24px;
 }
 
+
 .icon-team:nth-child(4) {
     margin-right: 0;
 }
 
-.icon-team:hover,
-.focus {
+.href-item:hover {
     background-color: var(--accent-colot-too);
 }
+
+.href-item:focus {
+    background-color: var(--accent-colot-too);
+}
+
+
 
 
 .team-social {
@@ -696,7 +702,9 @@ footer>.container {
 }
 
 
-.icon-footer {
+
+
+.item-color {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -707,12 +715,20 @@ footer>.container {
     cursor: pointer;
 
     margin-right: 24px;
+
 }
 
-.icon-footer:hover {
+
+.item-color:hover {
     background-color: var(--accent-colot-footor);
 
 }
+
+.item-color:focus {
+    background-color: var(--accent-colot-footor);
+
+}
+
 
 .icon-footer:nth-child(4) {
     margin-right: 0;
